@@ -15,11 +15,13 @@ URL: https://github.com/GabrielSlPires/ggdaynight
 BugReports: https://github.com/GabrielSlPires/ggdaynight/issues
 Imports: 
     ggplot2,
-    grid
+    grid,
+    rlang
 Depends: 
     R (>= 2.10)
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.2
 Suggests: 
     testthat (>= 3.0.0),
-    vdiffr
+    vdiffr,
+    suntools
 Config/testthat/edition: 3
